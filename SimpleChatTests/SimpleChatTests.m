@@ -1,9 +1,9 @@
 //
 //  SimpleChatTests.m
-//  SimpleChatTests
+//  SimpleChat
 //
-//  Created by Tung Nguyen on 9/27/13.
-//  Copyright (c) 2013 Tung Nguyen. All rights reserved.
+//  Created by AJTech on 9/27/13.
+//  Copyright (c) 2015 Ajay Venkat. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

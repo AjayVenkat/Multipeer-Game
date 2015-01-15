@@ -21,6 +21,7 @@
 		1AF44F9D17F58A6B00D213C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF44F7F17F58A6A00D213C2 /* UIKit.framework */; };
 		1AF44FA517F58A6B00D213C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AF44FA317F58A6B00D213C2 /* InfoPlist.strings */; };
 		1AF44FA717F58A6B00D213C2 /* SimpleChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF44FA617F58A6B00D213C2 /* SimpleChatTests.m */; };
+		1AF44FB117F58F1A00D213C2 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF44FB017F58F1A00D213C2 /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AF44F7817F58A6A00D213C2 /* SimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF44F7817F58A6A00D213C2 /* MultipeerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF44F7B17F58A6A00D213C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1AF44F7D17F58A6A00D213C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1AF44F7F17F58A6A00D213C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1AF44F8317F58A6A00D213C2 /* SimpleChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleChat-Info.plist"; sourceTree = "<group>"; };
+		1AF44F8317F58A6A00D213C2 /* MultipeerGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipeerGame-Info.plist"; sourceTree = "<group>"; };
 		1AF44F8517F58A6A00D213C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AF44F8717F58A6A00D213C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1AF44F8917F58A6A00D213C2 /* SimpleChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleChat-Prefix.pch"; sourceTree = "<group>"; };
+		1AF44F8917F58A6A00D213C2 /* MultipeerGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipeerGame-Prefix.pch"; sourceTree = "<group>"; };
 		1AF44F8A17F58A6A00D213C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AF44F8B17F58A6A00D213C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1AF44F8E17F58A6A00D213C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AF44F9017F58A6A00D213C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1AF44F9117F58A6A00D213C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AF44F9117F58A6A00D213C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
 		1AF44F9317F58A6A00D213C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1AF44F9917F58A6B00D213C2 /* SimpleChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF44F9917F58A6B00D213C2 /* MultipeerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF44F9A17F58A6B00D213C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1AF44FA217F58A6B00D213C2 /* SimpleChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleChatTests-Info.plist"; sourceTree = "<group>"; };
+		1AF44FA217F58A6B00D213C2 /* MultipeerGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipeerGameTests-Info.plist"; sourceTree = "<group>"; };
 		1AF44FA417F58A6B00D213C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AF44FA617F58A6B00D213C2 /* SimpleChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleChatTests.m; sourceTree = "<group>"; };
+		1AF44FB017F58F1A00D213C2 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF44FB117F58F1A00D213C2 /* MultipeerConnectivity.framework in Frameworks */,
 				1AF44F7E17F58A6A00D213C2 /* CoreGraphics.framework in Frameworks */,
 				1AF44F8017F58A6A00D213C2 /* UIKit.framework in Frameworks */,
 				1AF44F7C17F58A6A00D213C2 /* Foundation.framework in Frameworks */,
@@ -82,8 +85,8 @@
 		1AF44F6F17F58A6A00D213C2 = {
 			isa = PBXGroup;
 			children = (
-				1AF44F8117F58A6A00D213C2 /* SimpleChat */,
-				1AF44FA017F58A6B00D213C2 /* SimpleChatTests */,
+				1AF44F8117F58A6A00D213C2 /* MultipeerGame */,
+				1AF44FA017F58A6B00D213C2 /* MultipeerGameTests */,
 				1AF44F7A17F58A6A00D213C2 /* Frameworks */,
 				1AF44F7917F58A6A00D213C2 /* Products */,
 			);
@@ -92,8 +95,8 @@
 		1AF44F7917F58A6A00D213C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AF44F7817F58A6A00D213C2 /* SimpleChat.app */,
-				1AF44F9917F58A6B00D213C2 /* SimpleChatTests.xctest */,
+				1AF44F7817F58A6A00D213C2 /* MultipeerGame.app */,
+				1AF44F9917F58A6B00D213C2 /* MultipeerGameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +104,7 @@
 		1AF44F7A17F58A6A00D213C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AF44FB017F58F1A00D213C2 /* MultipeerConnectivity.framework */,
 				1AF44F7B17F58A6A00D213C2 /* Foundation.framework */,
 				1AF44F7D17F58A6A00D213C2 /* CoreGraphics.framework */,
 				1AF44F7F17F58A6A00D213C2 /* UIKit.framework */,
@@ -109,7 +113,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1AF44F8117F58A6A00D213C2 /* SimpleChat */ = {
+		1AF44F8117F58A6A00D213C2 /* MultipeerGame */ = {
 			isa = PBXGroup;
 			children = (
 				1AF44F8A17F58A6A00D213C2 /* AppDelegate.h */,
@@ -120,33 +124,35 @@
 				1AF44F9317F58A6A00D213C2 /* Images.xcassets */,
 				1AF44F8217F58A6A00D213C2 /* Supporting Files */,
 			);
+			name = MultipeerGame;
 			path = SimpleChat;
 			sourceTree = "<group>";
 		};
 		1AF44F8217F58A6A00D213C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AF44F8317F58A6A00D213C2 /* SimpleChat-Info.plist */,
+				1AF44F8317F58A6A00D213C2 /* MultipeerGame-Info.plist */,
 				1AF44F8417F58A6A00D213C2 /* InfoPlist.strings */,
 				1AF44F8717F58A6A00D213C2 /* main.m */,
-				1AF44F8917F58A6A00D213C2 /* SimpleChat-Prefix.pch */,
+				1AF44F8917F58A6A00D213C2 /* MultipeerGame-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1AF44FA017F58A6B00D213C2 /* SimpleChatTests */ = {
+		1AF44FA017F58A6B00D213C2 /* MultipeerGameTests */ = {
 			isa = PBXGroup;
 			children = (
 				1AF44FA617F58A6B00D213C2 /* SimpleChatTests.m */,
 				1AF44FA117F58A6B00D213C2 /* Supporting Files */,
 			);
+			name = MultipeerGameTests;
 			path = SimpleChatTests;
 			sourceTree = "<group>";
 		};
 		1AF44FA117F58A6B00D213C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AF44FA217F58A6B00D213C2 /* SimpleChatTests-Info.plist */,
+				1AF44FA217F58A6B00D213C2 /* MultipeerGameTests-Info.plist */,
 				1AF44FA317F58A6B00D213C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1AF44F7717F58A6A00D213C2 /* SimpleChat */ = {
+		1AF44F7717F58A6A00D213C2 /* MultipeerGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AF44FAA17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "SimpleChat" */;
+			buildConfigurationList = 1AF44FAA17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "MultipeerGame" */;
 			buildPhases = (
 				1AF44F7417F58A6A00D213C2 /* Sources */,
 				1AF44F7517F58A6A00D213C2 /* Frameworks */,
@@ -167,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = SimpleChat;
+			name = MultipeerGame;
 			productName = SimpleChat;
-			productReference = 1AF44F7817F58A6A00D213C2 /* SimpleChat.app */;
+			productReference = 1AF44F7817F58A6A00D213C2 /* MultipeerGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1AF44F9817F58A6B00D213C2 /* SimpleChatTests */ = {
+		1AF44F9817F58A6B00D213C2 /* MultipeerGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AF44FAD17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "SimpleChatTests" */;
+			buildConfigurationList = 1AF44FAD17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "MultipeerGameTests" */;
 			buildPhases = (
 				1AF44F9517F58A6B00D213C2 /* Sources */,
 				1AF44F9617F58A6B00D213C2 /* Frameworks */,
@@ -185,9 +191,9 @@
 			dependencies = (
 				1AF44F9F17F58A6B00D213C2 /* PBXTargetDependency */,
 			);
-			name = SimpleChatTests;
+			name = MultipeerGameTests;
 			productName = SimpleChatTests;
-			productReference = 1AF44F9917F58A6B00D213C2 /* SimpleChatTests.xctest */;
+			productReference = 1AF44F9917F58A6B00D213C2 /* MultipeerGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1AF44F7317F58A6A00D213C2 /* Build configuration list for PBXProject "SimpleChat" */;
+			buildConfigurationList = 1AF44F7317F58A6A00D213C2 /* Build configuration list for PBXProject "MultipeerGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +223,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1AF44F7717F58A6A00D213C2 /* SimpleChat */,
-				1AF44F9817F58A6B00D213C2 /* SimpleChatTests */,
+				1AF44F7717F58A6A00D213C2 /* MultipeerGame */,
+				1AF44F9817F58A6B00D213C2 /* MultipeerGameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +274,7 @@
 /* Begin PBXTargetDependency section */
 		1AF44F9F17F58A6B00D213C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1AF44F7717F58A6A00D213C2 /* SimpleChat */;
+			target = 1AF44F7717F58A6A00D213C2 /* MultipeerGame */;
 			targetProxy = 1AF44F9E17F58A6B00D213C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -379,9 +385,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleChat/SimpleChat-Prefix.pch";
-				INFOPLIST_FILE = "SimpleChat/SimpleChat-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SimpleChat/MultipeerGame-Prefix.pch";
+				INFOPLIST_FILE = "SimpleChat/MultipeerGame-Info.plist";
+				PRODUCT_NAME = MultipeerGame;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,9 +398,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleChat/SimpleChat-Prefix.pch";
-				INFOPLIST_FILE = "SimpleChat/SimpleChat-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SimpleChat/MultipeerGame-Prefix.pch";
+				INFOPLIST_FILE = "SimpleChat/MultipeerGame-Info.plist";
+				PRODUCT_NAME = MultipeerGame;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +421,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SimpleChatTests/SimpleChatTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SimpleChatTests/MultipeerGameTests-Info.plist";
+				PRODUCT_NAME = MultipeerGameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +440,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleChat/SimpleChat-Prefix.pch";
-				INFOPLIST_FILE = "SimpleChatTests/SimpleChatTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SimpleChatTests/MultipeerGameTests-Info.plist";
+				PRODUCT_NAME = MultipeerGameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AF44F7317F58A6A00D213C2 /* Build configuration list for PBXProject "SimpleChat" */ = {
+		1AF44F7317F58A6A00D213C2 /* Build configuration list for PBXProject "MultipeerGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AF44FA817F58A6B00D213C2 /* Debug */,
@@ -453,21 +459,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AF44FAA17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "SimpleChat" */ = {
+		1AF44FAA17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "MultipeerGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AF44FAB17F58A6B00D213C2 /* Debug */,
 				1AF44FAC17F58A6B00D213C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1AF44FAD17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "SimpleChatTests" */ = {
+		1AF44FAD17F58A6B00D213C2 /* Build configuration list for PBXNativeTarget "MultipeerGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AF44FAE17F58A6B00D213C2 /* Debug */,
 				1AF44FAF17F58A6B00D213C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

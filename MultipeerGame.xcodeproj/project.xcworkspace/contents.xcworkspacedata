@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SimpleChat.xcodeproj">
+      location = "self:MultipeerGame.xcodeproj">
    </FileRef>
 </Workspace>
